@@ -99,8 +99,8 @@ code{display:block;position:relative;margin-left:3em;padding-left:.5em;min-heigh
 code:before{counter-increment:line-numbers;content:counter(line-numbers);display:block;position:absolute;left:-3.5em;top:0;width:3em;text-align:right;color:#4a4a4a;white-space:pre}
 .view-wrap{position:relative}
 .view-wrap:hover .view-control{opacity:1}
-.view-control{position:absolute;right:1px;top:1px;z-index:10;opacity:0;transition:opacity 200ms}
-.view-control .btn{display:block;background:#000;border:0 none;box-shadow:initial;border-radius:0;cursor:pointer;width:40px;height:40px;padding:0;line-height:40px;transition:background 200ms;text-align:center;float:right}
+.view-control{position:absolute;right:1px;top:5px;z-index:10;opacity:0;transition:opacity 200ms}
+.view-control .btn{border-radius: 4px;display:block;background:#000;border:0 none;box-shadow:initial;border-radius:0;cursor:pointer;width:40px;height:40px;padding:0;line-height:40px;transition:background 200ms;text-align:center;float:right}
 .view-control .btn:hover{background:#444}
 .view-control .btn:active{background:#222}
 .view-control .btn .btn-icon{width:16px;height:16px;vertical-align:middle}
